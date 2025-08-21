@@ -1,1 +1,36 @@
+:root {
+    --background-primary: #f8fafc; /* slate-50 */
+    --background-secondary: #ffffff; /* white */
+    --text-primary: #1e293b; /* slate-800 */
+    --text-secondary: #64748b; /* slate-500 */
+    --text-headings: #0f172a; /* slate-900 */
+    --accent-color: #0ea5e9; /* sky-500 */
+    --accent-color-hover: #0284c7; /* sky-600 */
+    --border-color: #cbd5e1; /* slate-300 */
+}
+
+html.theme-dark {
+    --background-primary: #0f172a; /* slate-900 */
+    --background-secondary: #1e293b; /* slate-800 */
+    --text-primary: #e2e8f0; /* slate-200 */
+    --text-secondary: #94a3b8; /* slate-400 */
+    --text-headings: #f1f5f9; /* slate-100 */
+    --accent-color: #38bdf8; /* sky-400 */
+    --accent-color-hover: #0ea5e9; /* sky-500 */
+    --border-color: #475569; /* slate-600 */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--background-primary);
+    color: var(--text-primary);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.modal-overlay {
+    transition: opacity 0.3s ease;
+}
+.modal-content {
+    transition: transform 0.3s ease;
+}
 
