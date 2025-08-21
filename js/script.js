@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- CONFIGURATION ---
     // IMPORTANT: Replace this with your WhatsApp number including the country code (e.g., 91 for India).
     // Do NOT include '+', '00', or any special characters.
-    const WHATSAPP_NUMBER = '910000000000'; // Example: 91 for India followed by your 10-digit number
+    const WHATSAPP_NUMBER = '919646566542'; // Example: 91 for India followed by your 10-digit number
 
     // --- THEME SWITCHER LOGIC ---
     const themeToggleButton = document.getElementById('theme-toggle');
